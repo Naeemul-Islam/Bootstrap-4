@@ -1,0 +1,69 @@
+
+*{
+	scroll-behavior: smooth;
+}
+body{
+	background: #333;
+	color: #fff;
+}
+.navbar{
+	border-bottom: #008ed6 1px solid;
+}
+#home-section{
+	background-image: url(../../assets/images/pix.jpeg);
+	background-size: cover;
+	min-height: 800px;
+}
+#home-section .dark-overlay{
+	background-color: rgba(0,0,0,0.7);
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 800px;
+}
+#home-section .home-inner{
+	padding: 150px;
+}
+#home-section .card-form{
+	opacity: 0.8;
+}
+.fa{
+	color: #008ed6;
+	background-color: #fff;
+	padding: 4px;
+	border-radius: 5px;
+	font-size: 30px;
+}
+nav ul li{
+	width: 120px;
+}
+.btn{
+	color: #fff;
+	border: #008ed6 1px solid;
+}
+.btn:hover {
+	color: #f1f3f4;
+	text-decoration: none;
+	background: #15f4ab;
+}
+#explore-section .fa{
+	color: #fff;
+	background: #333;
+	padding: 4px;
+	border-radius: 5px;
+	font-size: 30px;
+}
+#create-section .fa{
+	color: #008ed6;
+	background-color: #fff;
+	padding: 4px;
+	border-radius: 5px;
+	font-size: 30px;
+}
+#contact-section .fa{
+	color: #fff;
+	background: #333;
+	padding: 4px;
+	border-radius: 5px;
+	font-size: 30px;
+}
